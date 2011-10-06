@@ -15,6 +15,5 @@ public class WebviewproActivity extends Activity {
         mWebView = (WebView) findViewById(R.id.webview);
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl("file:///android_asset/index.htm");
-        }
-    
+        }    
 }
